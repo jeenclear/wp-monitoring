@@ -1,0 +1,129 @@
+
+/** style sheet ( admin ) **/
+
+/**
+    actions icon styles
+**/
+.form-uploadimage__wrap,
+.widget-uploadimage__wrap {
+	margin-top: 20px;
+	position: relative;
+    display: inline-block;
+}
+.form-uploadimage__wrap img,
+.widget-uploadimage__wrap img {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	z-index: 3;
+}
+.form-uploadimage__wrap .no-image,
+.widget-uploadimage__wrap .no-image {
+	background: url('../images/icon-image-64.png') no-repeat scroll center center transparent;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.form-uploadimage__wrap #upload-img,
+.widget-uploadimage__wrap #upload-test {
+	position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blue;
+    color: #fff;
+    display: block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+	z-index: 4;
+}
+.form-uploadimage__wrap #remove-img,
+.widget-uploadimage__wrap #remove-test {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    color: white;
+    display: block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+	z-index: 4;
+}
+.wp-customslider__pad {
+	display: inline-block;
+    background: white;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #eee;
+}
+.wp-customslider__pad label {
+	display: block;
+}
+.customslider-textarea {
+	width: 300px;
+	height: 200px;
+}
+
+.wp-customslider__pad .error {
+	color: red;
+}
+/* Mange List */
+.wp-manage__option {
+	overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wp-manage__option .wp-manage__deleteall {
+	margin-top: 5px;
+}
+.wp-manage__option .wp-manage__deleteall,
+.wp-manage__option .wp-manage__deletesubmit,
+.wp-manage__option .wp-manage__addnew {
+	float: left;
+}
+.wp-manage__option .wp-manage__addnew {
+	margin-left: 10px;
+	margin-top: 9px;
+}
+.wp-manage__deleteall .delete_all {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.wp-manage__list tbody tr th,
+.wp-manage__list tbody tr td {
+	border-bottom: 1px solid #e1e1e1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#list-table tbody tr td.manage_edit {
+	padding-bottom: 20px;
+}
+.wp-manage__list td.manage-status span {
+	color: red;
+}
+.wp-manage__list td.manage-status span.status_green {
+	color: green;
+}
+/* Media Queries */
+@media screen and (max-width: 782px) {
+
+	.label_counter3,
+	.label_counter4,
+	.label_counter5, 
+	.label_counter6,
+	.label_counter7,
+	.label_counter8 {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 480px) {}
